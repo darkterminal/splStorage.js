@@ -1,0 +1,18 @@
+<h1 id="splstorage-js">splStorage.js</h1>
+<p>Simple LocalStorage Wrapper for CRUD</p>
+<h2 id="available-mehod">Available Mehod</h2>
+<ul>
+<li><code>splStorageJs.isDefined(collection)</code> This code is checking to see if the collection is defined in local storage.</li>
+<li><code>splStorageJs.collections(name)</code> This is a function that will return the collection of data that is stored in local storage.</li>
+<li><code>splStorageJs.whereNotEqual(collection, key, value)</code> This code is filtering out the items in the collection that do not have the key equal to the value.</li>
+<li><code>splStorageJs.whereEqual(collection, key, value)</code> This code is filtering the collection of objects by the key and value.</li>
+<li><code>splStorageJs.insert(collection, data)</code> This is a function that inserts data into a collection.</li>
+<li><code>splStorageJs.insert(collection, where[key, value], data[key, value])</code> This is a function that update data in a collection</li>
+<li><code>splStorageJs.delete(collection, key, value)</code> This a function that delete data in a collection</li>
+<li><code>splStorageJs.has(collection, key, value)</code> This a function that check data is exists or not in a collection</li>
+</ul>
+<h3 id="install">Install</h3>
+<ul>
+<li>unminified <code>https://cdn.jsdelivr.net/gh/darkterminal/splStorage.js@master/splStorage.js</code></li>
+<li>minified <code>https://cdn.jsdelivr.net/gh/darkterminal/splStorage.js@master/splStorage.min.js</code></li>
+</ul>
