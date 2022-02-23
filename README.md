@@ -1,6 +1,11 @@
 # splStorage.js
 Simple LocalStorage Wrapper for CRUD
 
+<a href="https://512kb.club"><img src="https://512kb.club/assets/images/green-team.svg" /></a>
+![GitHub file size in bytes](https://img.shields.io/github/size/darkterminal/splStorage.js/splStorage.min.js?label=minified&style=for-the-badge)
+![GitHub file size in bytes](https://img.shields.io/github/size/darkterminal/splStorage.js/splStorage.js?label=unminified&style=for-the-badge)
+[![](https://data.jsdelivr.com/v1/package/gh/darkterminal/splStorage.js/badge)](https://www.jsdelivr.com/package/gh/darkterminal/splStorage.js)
+
 ## Available Mehod
 - `splStorageJs.isDefined(collection)` This code is checking to see if the collection is defined in local storage.
 - `splStorageJs.collections(name)` This is a function that will return the collection of data that is stored in local storage.
